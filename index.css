@@ -1,0 +1,188 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, skyblue, dodgerblue);
+  line-height: 1.5;
+}
+
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  padding: 10px 20px;
+  background-color: whitesmoke;
+  top: 0;
+  z-index: 100;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: 900;
+  color: green;
+}
+
+.logo strong {
+  color: #014901;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.menu a:hover {
+  color: purple;
+  transform: translateX(10px);
+  text-decoration: underline;
+}
+
+#home.hero {
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(to right, skyblue, dodgerblue);
+  padding-top: 80px;
+  width: 100%;
+  min-height: 88vh;
+}
+
+.herop h1 {
+  color: blue;
+  text-transform: capitalize;
+  text-shadow: 2px 0px 5px white;
+  margin-left: 20px;
+}
+
+.herop h2 {
+  color: rgb(41, 0, 16);
+  text-shadow: 2px 0px 5px indianred;
+  margin-left: 20px;
+}
+
+.herop p {
+  color: rgb(1, 5, 56);
+  font-weight: 500;
+  font-size: 1rem;
+  margin-left: 20px;
+}
+
+.herop button {
+  padding: 10px 10px;
+  border: none;
+  font: 20px bold;
+  border-radius: 10px;
+  font-weight: 500;
+  color: #0a0a0a;
+  background: linear-gradient(to right, purple, dodgerblue, skyblue);
+  cursor: pointer;
+  margin-left: 40px;
+  top: 30px;
+  position: relative;
+}
+.herop button:hover{
+  transition: all ease-in 0.3s;
+  transform: scale(1.02) translateY(-5px);
+  background:linear-gradient(to bottom,rgb(37, 94, 94)); 
+}
+.image{
+  position: absolute;
+  justify-self: right;
+  top: 100px;
+  width: 30vw;
+  height: 30vh;
+}
+.image img{
+  position: relative;
+  width: 360px;
+  height: 360px;
+  border-radius: 180px;
+}
+.image img:hover{
+  box-shadow:  0 0 20px rgb(194, 194, 194);
+  transform: scale(1.02) translateY(-2px);
+  transition: all ease-in 0.3s; 
+  cursor: pointer;
+}
+@media(max-width:600px){
+  .image{
+    position: relative;
+    justify-self: center;
+    top: 40px;
+  }
+  .image img{
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+  }
+}
+#about.about{
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(to right, skyblue, dodgerblue);
+  padding-top: 80px;
+  width: 100%;
+  min-height: 88vh;
+}
+.image1{
+  position: relative;
+  justify-self: left;
+  top: 0px;
+  width: 30vw;
+  height: 30vh;
+  margin-left: 20px;
+  animation-duration:5s;
+  animation-name: eva;
+  animation-delay: 1s;
+  animation-timing-function:  all ease-in 0.3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-direction: alternate;
+}
+@keyframes eva{
+  from{
+    opacity: 0;
+    transform: translateY(0px) scale(0);
+  }
+  to{
+    transform: translateY(20px) scale(1);
+    opacity: 1;
+  }
+}
+.image1 img{
+  position: relative;
+  width: 360px;
+  height: 360px;
+  border-radius: 180px;
+}
+.abouttext{
+  position: absolute;
+  justify-self: center;
+  top: 150px;
+  transform: translate(50%);
+}
+.abouttext h3{
+  position: relative;
+  color: white;
+  font: 20px bold;
+}
+.abouttext p{
+  font: 20px bold;
+}
