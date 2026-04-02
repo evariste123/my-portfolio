@@ -1,0 +1,13 @@
+body{
+    max-width: 1200px;
+    padding: 100px 20px;
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+}
+.post{
+    position: relative;
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    box-shadow:  0 0 20px black;
+}

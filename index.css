@@ -17,10 +17,11 @@ body {
   align-items: center;
   position: fixed;
   width: 100%;
-  padding: 10px;
+  padding: 15px;
   background-color: whitesmoke;
   top: 0;
   z-index: 100;
+  border-bottom: 5px solid black;
 }
 @media(max-width:600px){
   .navbar{
@@ -153,6 +154,7 @@ body {
   top: 100px;
   width: 30vw;
   height: 30vh;
+  margin-right: 30px;
 }
 .image img{
   position: relative;
@@ -237,6 +239,7 @@ body {
   justify-self: center;
   top: 150px;
   transform: translate(50%);
+  margin-right: 50px;
 }
 .abouttext h3{
   position: relative;
@@ -307,6 +310,10 @@ body {
   border-radius: 5px;
   top: 20px;
   position: relative;
+}
+.item1 h4{
+  font-size: 1.5rem;
+  color: #025c68;
 }
 #service.service{
   position: relative;
@@ -460,6 +467,11 @@ border-radius: 5px;
   position: relative;
   border-radius: 5px;
   top: 10px;
+}
+
+.card6 h3{
+  font-size: 1.5rem;
+  color: #025c68;
 }
 .card6:hover{
   transition: all ease-in 0.3s;
