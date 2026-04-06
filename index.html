@@ -37,6 +37,7 @@
                 <img src="./image/Untitled design.png" alt="">
             </div>
         </section>
+        <div class="btn2" id="scrollToBottomBtn"><img src="./image/download.png" alt=""></div>
   <section class="about" id="about">
             <div class="image1">
                 <img  src="./image/Untitled design.png" alt="About Image">🌟
@@ -235,7 +236,29 @@
         <div class="para">
             <p>&copy; 2025 Evariste. All Rights Reserved.</p>
         </div>
+        <div class="btn1" id="scrollToTopBtn"><img src="./image/2.jpeg" alt=""></div>
     </section>
 <script src="./index.js"></script>
+<script>
+    
+const scrollBtn = document.getElementById('scrollToTopBtn');
+scrollBtn.addEventListener('click', function() {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth' 
+    });
+});
+
+
+
+const scrollBottomBtn = document.getElementById('scrollToBottomBtn');
+scrollBottomBtn.addEventListener('click', function() {
+    window.scrollTo({
+        top: document.documentElement.scrollHeight, 
+        behavior: 'smooth' 
+    });
+});
+
+</script>
 </body>
 </html>
