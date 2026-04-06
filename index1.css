@@ -11,3 +11,49 @@ body{
     border-radius: 5px;
     box-shadow:  0 0 20px black;
 }
+.blog-header{
+    position: relative;
+    padding: 10px 10px;
+    background-color: #0101;
+    border-radius: 5px;
+    border-bottom: 1px solid #030403;
+}
+.blog-header h4{
+    position: relative;
+    font: 20px bold;
+}
+.meta em{
+    position: relative;
+    color: fuchsia;
+    font-weight: 900;
+    font-size: 20px;
+}
+.blog-content{
+    padding: 10px 10px;
+    background-color: darkgray;
+    border-radius: 5px;
+    top: 10px;
+    position:relative;
+}
+.wrapper{
+    padding: 10px 10px;
+    background-color: #302f2f;
+    border-radius: 10px;
+}
+.wrapper h6{
+    font: 20px bold;
+    color: rgb(0, 162, 255);
+}
+.code{
+    color: white;
+}
+.link{
+    position: relative;
+    top: 10px;
+    font: 20px bold;
+}
+.link a{
+    position: relative;
+    text-decoration: none;
+    color: #4d0270;
+}
