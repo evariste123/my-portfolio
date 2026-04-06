@@ -641,7 +641,7 @@ border-radius: 5px;
 
 @keyframes floating {
   0%, 100% { transform: translateY(0);color: rgb(36, 0, 102); }
-  50% { transform: translateY(-10px);color: blue;scale: 0.9;opacity: 1; }
+  50% { transform: translateY(-10px);color: rgb(3, 3, 3);scale: 0.9;opacity: 1; }
 }
 @media(max-width:600px){
   .contact-grid{
