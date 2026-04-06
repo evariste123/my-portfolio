@@ -239,7 +239,7 @@ body {
   justify-self: center;
   top: 150px;
   transform: translate(50%);
-  margin-right: 50px;
+  margin-right: 0px;
 }
 .abouttext h3{
   position: relative;
