@@ -809,6 +809,8 @@ border-radius: 5px;
   .footer hr{
     position: relative;
     bottom: 30px;
+    /* background-color: darkblue; */
+    background: linear-gradient(to left,rgb(37, 37, 129),darkcyan,skyblue);
   }
   .conat{
     position: relative;
