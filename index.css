@@ -129,8 +129,17 @@ body {
   font-size: 1rem;
   margin-left: 20px;
 }
-
-.herop button {
+.btn{
+  position:relative;
+}
+@media(max-width:600px){
+  .btn{
+    position:relative;
+    justify-self: center;
+    margin-left: 0px;
+  }
+}
+.btn button {
   padding: 10px 10px;
   border: none;
   font: 20px bold;
@@ -139,7 +148,7 @@ body {
   color: #0a0a0a;
   background: linear-gradient(to right, purple, dodgerblue, skyblue);
   cursor: pointer;
-  margin-left: 40px;
+  margin-left: 20px;
   top: 30px;
   position: relative;
 }
