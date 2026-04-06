@@ -674,6 +674,13 @@ border-radius: 5px;
     position: relative;
     animation-name: none;
   }
+  .conta p{
+    position: relative;
+    animation-name: none;
+    text-shadow: 0 0 5px white;
+    font: 17px bold;
+    color: black;
+  }
 }
 .footer{
   padding: 50px 30px;
