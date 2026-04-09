@@ -247,7 +247,7 @@ body {
   position: absolute;
   justify-self: center;
   top: 150px;
-  transform: translate(50%);
+  transform: translate(40%);
   margin-right: 0px;
 }
 .abouttext h3{
@@ -257,6 +257,7 @@ body {
 }
 .abouttext p{
   font: 20px bold;
+  position: relative;
 }
 @media(max-width:600px){
   .image1{
